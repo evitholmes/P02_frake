@@ -1,0 +1,142 @@
+body {
+  /* font-family: 'Eczar', serif; */
+  font-family: 'Poppins', sans-serif;
+  padding: 2em;
+}
+
+img {
+  vertical-align: middle;
+}
+
+header {
+  padding: 0;
+}
+
+h1 {
+  color: #668fff;
+}
+
+.element {
+  padding-bottom: 2em;
+  border-top-width: 0.15em;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+/* -------------- Buttons (edited from chatGPT) -------------- */
+button,
+.button,
+button:focus,
+.button:focus {
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(60deg, #668fff 0%, #9d6cf7 100%);
+  border-radius: .25em;
+  color: #ffffff;
+  padding: .75em 1em;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+}
+
+button:active,
+.button:active {
+  background-color: aqua;
+}
+
+button:hover,
+.button:hover {
+  box-shadow: -.15em .15em .5em #a0a0a0;
+  transform: translate(.15em, -.15em);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  color: #ffffff;
+}
+/* -------------- End of Buttons -------------- */
+
+/* edited from chatGPT */
+a {
+  color: #668fff;
+  text-decoration: none;
+  transition: color .5s ease;
+}
+
+a:hover,
+a:focus {
+  color: #9d6cf7;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: end;
+  max-width: fit-content;
+  background-color: #e4e4e4;
+  padding: 1em;
+  border-radius: .25em;
+}
+
+.square {
+  width: 10em;
+  height: 3em;
+  /* margin: 2em; */
+}
+
+.square1 {
+  background-color: #668fff;
+}
+
+.square2 {
+  background-color: #9d6cf7;
+}
+
+
+/* -------------- Navigation Bar - help from chatGPT -------------- */
+.logo {
+  max-height: 2em;
+}
+
+nav {
+  /* background-color: #668fff; */
+  background: linear-gradient(60deg, #668fff 0%, #9d6cf7 100%);
+  padding: 1em;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: left;
+  align-items: center;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 1em;
+  border-radius: 0.25em;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover, nav a:focus {
+  color: #ffffff;
+  /* background-color: #9d6cf7; */
+}
+/* -------------- End of Navigation Bar -------------- */
+
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+/* -------------- Payment Form Styles -------------- */
+
+
+
+
+
+/* -------------- End of Payment Form Styles -------------- */
+
+/* 
+  INTERACTIVE ELEMENTS 
+*/
