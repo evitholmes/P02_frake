@@ -14,6 +14,28 @@ header {
   padding: 0;
 }
 
+h1{
+  font-weight: 800;
+  font-size:300%;
+  -webkit-text-stroke: 1px white;
+
+}
+
+h2{
+  font-weight: 500;
+  font-size:280%;
+}
+
+h3{
+  font-weight: 800;
+  font-size:280%;
+  color:#AECAF8;
+}
+
+.horizontal-space {
+  display: inline-block;
+  width: 0.5%; /* Adjust the width as needed */
+}
 
 .element {
   padding-bottom: 2em;
@@ -122,14 +144,40 @@ nav a:hover {
   color: #ffffff;
   opacity: 0.8;
 }
-/* -------------- End of Navigation Bar -------------- */
-
 
 code {
   background-color: #EEE;
   padding: 0.5rem;
   display: block;
 }
+
+/* -------------- End of Navigation Bar -------------- */
+
+
+
+/* -------------- Homepage-body Section Styles -------------- */
+
+.homepage-body {
+
+}
+
+.homepage-text {
+  position: absolute;
+  top: 45%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  width:55%;
+}
+
+.homepage-body h1{
+  margin-bottom:0.5%;
+}
+
+
+/* -------------- End of Homepage-body Section  Styles -------------- */
+
+
 
 /* -------------- Credit Section Styles -------------- */
 
@@ -146,10 +194,6 @@ code {
   width: 1.5%;
   margin: 0 0.1% 0.1% 0.5%;
 }
-
-
-
-
 
 /* -------------- End of Credit Section  Styles -------------- */
 
