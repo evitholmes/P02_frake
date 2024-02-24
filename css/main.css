@@ -3,6 +3,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   padding: 2em;
   background-color: #3A393D;
+  color: white;
 }
 
 img {
@@ -13,9 +14,6 @@ header {
   padding: 0;
 }
 
-h1 {
-  color: #668fff;
-}
 
 .element {
   padding-bottom: 2em;
@@ -54,7 +52,6 @@ button:hover,
 }
 /* -------------- End of Buttons -------------- */
 
-/* edited from chatGPT */
 a {
   color: #668fff;
   text-decoration: none;
@@ -93,7 +90,7 @@ a:focus {
 }
 
 
-/* -------------- Navigation Bar - help from chatGPT -------------- */
+/* -------------- Navigation Bar -------------- */
 .logo {
   max-height: 2.5em;
 }
@@ -134,13 +131,27 @@ code {
   display: block;
 }
 
-/* -------------- Payment Form Styles -------------- */
+/* -------------- Footer Styles -------------- */
+
+footer {
+  position: fixed;
+  bottom: 5%;
+  right: 8%;
+  padding: 10px;
+  width:90%;
+  text-align:right;
+}
+
+.discord-logo{
+  width: 1.5%;
+  margin: 0 0.1% 0.1% 0.5%;
+}
 
 
 
 
 
-/* -------------- End of Payment Form Styles -------------- */
+/* -------------- End of Footer Styles -------------- */
 
 /* 
   INTERACTIVE ELEMENTS 
