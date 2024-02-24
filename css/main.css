@@ -1,7 +1,8 @@
 body {
   /* font-family: 'Eczar', serif; */
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 2em;
+  background-color: #3A393D;
 }
 
 img {
@@ -58,6 +59,7 @@ a {
   color: #668fff;
   text-decoration: none;
   transition: color .5s ease;
+  font-weight: 700;
 }
 
 a:hover,
@@ -93,19 +95,18 @@ a:focus {
 
 /* -------------- Navigation Bar - help from chatGPT -------------- */
 .logo {
-  max-height: 2em;
+  max-height: 2.5em;
 }
 
 nav {
   /* background-color: #668fff; */
-  background: linear-gradient(60deg, #668fff 0%, #9d6cf7 100%);
   padding: 1em;
   text-align: center;
   display: flex;
-  flex-wrap: wrap;
-  max-width: 100%;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
+  width:90%;
+  margin: 0 auto;
 }
 
 nav a {
@@ -116,9 +117,13 @@ nav a {
   transition: background-color 0.3s ease;
 }
 
-nav a:hover, nav a:focus {
+nav a:last-child {
+  margin-left: auto; 
+}
+
+nav a:hover {
   color: #ffffff;
-  /* background-color: #9d6cf7; */
+  opacity: 0.8;
 }
 /* -------------- End of Navigation Bar -------------- */
 
