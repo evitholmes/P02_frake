@@ -1,7 +1,9 @@
 body {
   /* font-family: 'Eczar', serif; */
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 2em;
+  background-color: #3A393D;
+  color: white;
 }
 
 img {
@@ -10,10 +12,31 @@ img {
 
 header {
   padding: 0;
+  margin-top: -1%;
 }
 
 h1 {
-  color: #668fff;
+  font-weight: 800;
+  font-size: 300%;
+  -webkit-text-stroke: 1px white;
+
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 280%;
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 280%;
+  color: #AECAF8;
+}
+
+.horizontal-space {
+  display: inline-block;
+  width: 0.5%;
+  /* Adjust the width as needed */
 }
 
 .element {
@@ -51,13 +74,14 @@ button:hover,
   transition: box-shadow 0.15s ease, transform 0.15s ease;
   color: #ffffff;
 }
+
 /* -------------- End of Buttons -------------- */
 
-/* edited from chatGPT */
 a {
   color: #668fff;
   text-decoration: none;
   transition: color .5s ease;
+  font-weight: 700;
 }
 
 a:hover,
@@ -91,21 +115,20 @@ a:focus {
 }
 
 
-/* -------------- Navigation Bar - help from chatGPT -------------- */
+/* -------------- Navigation Bar -------------- */
 .logo {
-  max-height: 2em;
+  max-height: 2.5em;
 }
 
 nav {
   /* background-color: #668fff; */
-  background: linear-gradient(60deg, #668fff 0%, #9d6cf7 100%);
   padding: 1em;
   text-align: center;
   display: flex;
-  flex-wrap: wrap;
-  max-width: 100%;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 nav a {
@@ -116,12 +139,14 @@ nav a {
   transition: background-color 0.3s ease;
 }
 
-nav a:hover, nav a:focus {
-  color: #ffffff;
-  /* background-color: #9d6cf7; */
+nav a:last-child {
+  margin-left: auto;
 }
-/* -------------- End of Navigation Bar -------------- */
 
+nav a:hover {
+  color: #ffffff;
+  opacity: 0.8;
+}
 
 code {
   background-color: #EEE;
@@ -129,13 +154,167 @@ code {
   display: block;
 }
 
-/* -------------- Payment Form Styles -------------- */
+/* -------------- End of Navigation Bar -------------- */
 
 
 
+/* -------------- Homepage-body Section Styles -------------- */
+
+.homepage-text {
+  position: absolute;
+  top: 55%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  width: 55%;
+}
+
+.homepage-body h1 {
+  margin-bottom: 0.5%;
+}
+
+.h3-container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.yellow-stroke {
+  width: auto;
+  max-width: 100%;
+}
+
+.light {
+  width: auto;
+  max-width: 100%;
+  z-index: -1;
+}
+
+/* -------------- Homepage-body Screen Size Breakpoints -------------- */
+
+@media screen and (max-width: 550px) {
+  .homepage-body h1 {
+    margin-bottom: -14%;
+  }
+
+  .homepage-body h2 {
+    margin-bottom: -18%;
+  }
+
+  .h3-container {
+    white-space: normal;
+  }
+
+  .yellow-stroke {
+    max-width: 16em;
+    margin-top: -5em;
+  }
+
+  .light {
+    max-width: 0;
+    margin-top: -45em;
+    right: 12em;
+  }
+}
+
+@media screen and (min-width: 551px) {
+  .homepage-body h1 {
+    margin-bottom: -10%;
+  }
+
+  .homepage-body h2 {
+    margin-bottom: -12%;
+  }
+
+  .yellow-stroke {
+    max-width: 27em;
+    margin-top: -5em;
+  }
+
+  .light {
+    max-width: 0;
+    margin-top: -45em;
+    right: 12em;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .homepage-body h1 {
+    margin-bottom: 0%;
+  }
+
+  .homepage-body h2 {
+    margin-bottom: 0%;
+  }
+
+  .h2-h3-container {
+    display: flex;
+  }
+
+  .h2-h3-container h3 {
+    margin-top: 1px;
+    white-space: nowrap;
+  }
+
+  .h3-container {
+    display: inline-block;
+    vertical-align: middle;
+    width: max-content;
+  }
+
+  .h2-h3-container h2 {
+    margin-right: 10px;
+    margin-top: 1px;
+    white-space: nowrap;
+  }
+
+  .yellow-stroke {
+    max-width: 25em;
+    margin-top: -5em;
+  }
+
+  .light {
+    max-width: 25em;
+    margin-top: -45em;
+    right: 12em;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  .yellow-stroke {
+    max-width: 25em;
+    margin-top: -5em;
+  }
+
+  .light {
+    max-width: 25em;
+    margin-top: -45em;
+    margin-right: 50em;
+  }
+}
 
 
-/* -------------- End of Payment Form Styles -------------- */
+/* -------------- End of Homepage-body Section  Styles -------------- */
+
+
+
+/* -------------- Credit Section Styles -------------- */
+
+.credit {
+  position: fixed;
+  bottom: 8%;
+  right: 8%;
+  padding: 10px;
+  width: 90%;
+  text-align: right;
+}
+
+.discord-logo {
+  width: 1.5em;
+  margin: 0 0.2% 0.1% 0.3%;
+  /* top, right, bottom, left*/
+}
+
+/* -------------- End of Credit Section  Styles -------------- */
 
 /* 
   INTERACTIVE ELEMENTS 
