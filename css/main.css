@@ -131,9 +131,9 @@ code {
   display: block;
 }
 
-/* -------------- Footer Styles -------------- */
+/* -------------- Credit Section Styles -------------- */
 
-footer {
+.credit {
   position: fixed;
   bottom: 5%;
   right: 8%;
@@ -151,7 +151,7 @@ footer {
 
 
 
-/* -------------- End of Footer Styles -------------- */
+/* -------------- End of Credit Section  Styles -------------- */
 
 /* 
   INTERACTIVE ELEMENTS 
