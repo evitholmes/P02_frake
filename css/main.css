@@ -1,6 +1,7 @@
 body {
   /* font-family: 'Eczar', serif; */
   font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   padding: 2em;
   background-color: #3A393D;
   color: white;
@@ -18,8 +19,7 @@ header {
 h1 {
   font-weight: 800;
   font-size: 300%;
-  -webkit-text-stroke: 1px white;
-
+  /* -webkit-text-stroke: 1px white; */
 }
 
 h2 {
@@ -127,7 +127,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -300,7 +300,7 @@ code {
 /* -------------- Credit Section Styles -------------- */
 
 .credit {
-  position: fixed;
+  position: absolute;
   bottom: 8%;
   right: 8%;
   padding: 10px;
@@ -315,6 +315,66 @@ code {
 }
 
 /* -------------- End of Credit Section  Styles -------------- */
+
+/* -------------- Footer Styles -------------- */
+footer {
+  position: absolute;
+  top: 200%;
+  /* background-color: #333; */
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1 1 30%;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-section p,
+.footer-section ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* -------------- End of Footer Styles -------------- */
+
+
 
 /* 
   INTERACTIVE ELEMENTS 
