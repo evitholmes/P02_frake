@@ -1,0 +1,57 @@
+
+
+#courses {
+    position: absolute;
+    top: 100%;
+    /* left: 3em; */
+}
+
+/* edited from chatGPT */
+.serviceContainer {
+    position: absolute;
+    top: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1.25em 0;
+}
+
+.service-listing {
+    width: 20em;
+    margin: 1em;
+    margin-left: 0;
+    margin-top: 0;
+    box-shadow: 0 0 1em #00000033;
+}
+
+.service {
+    text-align: center;
+    padding: 1em;
+    /* border: 1px solid #9d6cf7; */
+    border-radius: 0.25em;
+    background-color: #e0e6ff;
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 0.25em;
+}
+
+.service-name a {
+    text-decoration: none;
+    /* color: #333; */
+}
+
+.service-detail {
+    margin-top: 0.625em;
+    color: #666;
+}
+
+.cost {
+    font-weight: bold;
+    color: #668fff;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+/* end of chatGPT edits */

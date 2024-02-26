@@ -1,6 +1,6 @@
 body {
   /* font-family: 'Eczar', serif; */
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   font-family: 'Poppins', sans-serif;
   padding: 2em;
   background-color: #3A393D;
@@ -214,6 +214,10 @@ code {
     margin-top: -45em;
     right: 12em;
   }
+
+  footer {
+    top: 400%;
+  }
 }
 
 @media screen and (min-width: 551px) {
@@ -234,6 +238,10 @@ code {
     max-width: 0;
     margin-top: -45em;
     right: 12em;
+  }
+
+  footer {
+    top: 300%;
   }
 }
 
@@ -277,6 +285,10 @@ code {
     margin-top: -45em;
     right: 12em;
   }
+
+  footer {
+    top: 500%;
+  }
 }
 
 @media screen and (min-width: 1900px) {
@@ -289,6 +301,10 @@ code {
     max-width: 25em;
     margin-top: -45em;
     margin-right: 50em;
+  }
+
+  footer {
+    top: 500%;
   }
 }
 
@@ -316,10 +332,10 @@ code {
 
 /* -------------- End of Credit Section  Styles -------------- */
 
-/* -------------- Footer Styles -------------- */
+/* -------------- Footer Styles from ChatGPT -------------- */
 footer {
   position: absolute;
-  top: 200%;
+  top: 230%;
   /* background-color: #333; */
   color: #fff;
   padding: 20px 0;
@@ -328,7 +344,7 @@ footer {
 .footer-container {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 0 auto;
@@ -358,6 +374,7 @@ footer {
 }
 
 .footer-section a {
+  font-weight: unset;
   color: #fff;
   text-decoration: none;
 }
