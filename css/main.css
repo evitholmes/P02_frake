@@ -216,7 +216,7 @@ code {
   }
 
   footer {
-    top: 400%;
+    top: 300%;
   }
 }
 
@@ -287,7 +287,7 @@ code {
   }
 
   footer {
-    top: 500%;
+    top: 220%;
   }
 }
 
@@ -304,7 +304,7 @@ code {
   }
 
   footer {
-    top: 500%;
+    top: 220%;
   }
 }
 
@@ -335,31 +335,29 @@ code {
 /* -------------- Footer Styles from ChatGPT -------------- */
 footer {
   position: absolute;
-  top: 230%;
+  /* top: 230%; */
   /* background-color: #333; */
-  color: #fff;
+  /* color: #fff; */
   padding: 20px 0;
 }
 
 .footer-container {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .footer-section {
-  flex: 1 1 30%;
-  margin-bottom: 20px;
-  padding: 0 20px;
+  /* flex: 1 1 30%;
+  margin-bottom: 20px; */
+  /* padding: 0 20px; */
 }
 
-.footer-section h3 {
+.footer-section h1 {
   font-size: 18px;
-  margin-bottom: 10px;
-  color: #fff;
 }
 
 .footer-section p,
