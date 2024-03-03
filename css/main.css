@@ -21,7 +21,6 @@ header {
 h1 {
   font-weight: 800;
   font-size: 300%;
-  /* -webkit-text-stroke: 1px white; */
 }
 
 h2 {
@@ -38,7 +37,6 @@ h3 {
 .horizontal-space {
   display: inline-block;
   width: 0.5%;
-  /* Adjust the width as needed */
 }
 
 .element {
@@ -105,7 +103,6 @@ a:focus {
 .square {
   width: 10em;
   height: 3em;
-  /* margin: 2em; */
 }
 
 .square1 {
@@ -123,8 +120,6 @@ a:focus {
 }
 
 nav {
-  /* background-color: #668fff; */
-  /* padding: 1em; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -162,10 +157,8 @@ code {
 /* -------------- Homepage-body Section Styles -------------- */
 
 .homepage-text {
-  /* Remove absolute positioning */
   text-align: left;
   width: 55%;
-  /* Adjust margin for positioning */
   margin: 10em auto 0 auto;
 }
 
@@ -316,18 +309,15 @@ code {
 /* -------------- Credit Section Styles -------------- */
 
 .credit {
-  /* Remove absolute positioning */
   padding: 10px;
   width: 90%;
   text-align: right;
-  /* Adjust margin for positioning */
   margin: 0 auto 2em auto;
 }
 
 .discord-logo {
   width: 1.5em;
   margin: 0 0.2% 0.1% 0.3%;
-  /* top, right, bottom, left*/
 }
 
 
@@ -340,15 +330,14 @@ code {
 .courses-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Align items to the start (left) */
+  align-items: flex-start; 
 }
 
 #courses {
-  margin-bottom: -1rem; /* Add margin for spacing */
+  margin-bottom: -1rem; 
 }
 
 .serviceContainer {
-  /* Adjust margin to create space */
   margin-top: 2em;
   display: flex;
   justify-content: space-between;
@@ -362,6 +351,7 @@ code {
   margin: 2em;
   margin-left: 0;
   margin-top: 0;
+  margin-right: 0;
   box-shadow: 0 0 1em #00000033;
 }
 
@@ -369,7 +359,6 @@ code {
 .service {
   text-align: center;
   padding: 1em;
-  /* border: 1px solid #9d6cf7; */
   border-radius: 0.25em;
   background-color: #e0e6ff;
 }
@@ -404,6 +393,9 @@ code {
   width: 100%;
 }
 
+#faq {
+  margin-bottom: 1rem; 
+}
 
 .accordion {
   margin: 0px;
@@ -460,7 +452,7 @@ input[type="checkbox"]:not(:checked) + label::before {
 }
 
 input[type="checkbox"]:checked + label + .content {
-  max-height: 400px; /* Adjust the maximum height as needed */
+  max-height: 400px; 
 }
 
 input[type="checkbox"]:not(:checked) + label + .content {
