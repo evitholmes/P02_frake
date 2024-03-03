@@ -53,13 +53,15 @@ button:focus,
 .button:focus {
   display: inline-block;
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(60deg, #668fff 0%, #9d6cf7 100%);
+  background: black;
   border-radius: .25em;
   color: #ffffff;
-  padding: .75em 1em;
+  padding: 1em 2em 1em 2em;
   border: none;
   cursor: pointer;
   align-self: center;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 button:active,
@@ -462,17 +464,52 @@ input[type="checkbox"]:not(:checked) + label + .content {
 /* -------------- End of FAQ Dropdown Section  Styles -------------- */
 
 /* -------------- Call to Action Section Styles -------------- */
+#CTAsection {
+  padding: 50px 0;
+}
+
+.CTAcontainer {
+  padding: 2em 0;
+  background-color: #ffaa00;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+}
+
+.CTAcontent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.CTAtext {
+  padding-left: 2em;
+}
+
+.CTAcontainer h2 {
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 0.5%;
+}
+
+.CTAcontainer h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 0.5%;
+}
+
+button[type="button"] {
+  margin-right: 2em;
+  background-color: #040404;
+}
+
 
 /* -------------- End of Call to Action Section Styles -------------- */
 
 /* -------------- Footer Styles from ChatGPT -------------- */
-footer {
-  position: absolute;
-  /* top: 230%; */
-  /* background-color: #333; */
-  /* color: #fff; */
-  padding: 20px 0;
-}
+
 
 .footer-container {
   display: flex;
@@ -481,6 +518,7 @@ footer {
   /* flex-wrap: wrap; */
   max-width: 1200px;
   margin: 0 auto;
+  margin-top: 200px;
 }
 
 .footer-section {
