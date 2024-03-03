@@ -5,6 +5,8 @@ body {
   padding: 2em;
   background-color: #3A393D;
   color: white;
+  margin-left: 1em;
+  margin-right: 1em; 
 }
 
 img {
@@ -19,7 +21,6 @@ header {
 h1 {
   font-weight: 800;
   font-size: 300%;
-  /* -webkit-text-stroke: 1px white; */
 }
 
 h2 {
@@ -36,7 +37,6 @@ h3 {
 .horizontal-space {
   display: inline-block;
   width: 0.5%;
-  /* Adjust the width as needed */
 }
 
 .element {
@@ -103,7 +103,6 @@ a:focus {
 .square {
   width: 10em;
   height: 3em;
-  /* margin: 2em; */
 }
 
 .square1 {
@@ -121,9 +120,6 @@ a:focus {
 }
 
 nav {
-  /* background-color: #668fff; */
-  padding: 1em;
-  text-align: center;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -161,12 +157,9 @@ code {
 /* -------------- Homepage-body Section Styles -------------- */
 
 .homepage-text {
-  position: absolute;
-  top: 55%;
-  left: 55%;
-  transform: translate(-50%, -50%);
   text-align: left;
   width: 55%;
+  margin: 10em auto 0 auto;
 }
 
 .homepage-body h1 {
@@ -316,21 +309,161 @@ code {
 /* -------------- Credit Section Styles -------------- */
 
 .credit {
-  position: absolute;
-  bottom: 8%;
-  right: 8%;
   padding: 10px;
   width: 90%;
   text-align: right;
+  margin: 0 auto 2em auto;
 }
 
 .discord-logo {
   width: 1.5em;
   margin: 0 0.2% 0.1% 0.3%;
-  /* top, right, bottom, left*/
 }
 
+
+
 /* -------------- End of Credit Section  Styles -------------- */
+
+
+/* -------------- Course Section Styles -------------- */
+
+.courses-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+#courses {
+  margin-bottom: -1rem; 
+}
+
+.serviceContainer {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width:100%;
+}
+
+.service-listing {
+  width: 20em;
+  margin: 2em;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  box-shadow: 0 0 1em #00000033;
+}
+
+
+.service {
+  text-align: center;
+  padding: 1em;
+  border-radius: 0.25em;
+  background-color: #e0e6ff;
+}
+
+.service img {
+  max-width: 100%;
+  border-radius: 0.25em;
+}
+
+.service-name a {
+  text-decoration: none;
+  /* color: #333; */
+}
+
+.service-detail {
+  margin-top: 0.625em;
+  color: #666;
+}
+
+.cost {
+  font-weight: bold;
+  color: #668fff;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* -------------- End of Course Section  Styles -------------- */
+
+/* -------------- FAQ Dropdown Section Styles -------------- */
+.dropdownContainer {
+  margin-top: 20px;
+  width: 100%;
+}
+
+#faq {
+  margin-bottom: 1rem; 
+}
+
+.accordion {
+  margin: 0px;
+  padding: 0;
+
+}
+
+.accordion li {
+  list-style: none;
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 6px;
+  background-color: #040404;
+}
+
+.accordion li label {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  width: 100%;
+}
+
+label::before {
+  content: '+';
+  margin-right: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.accordion .content {
+  color: #858585;
+  padding: 0 10px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s;
+}
+
+input[type="checkbox"]:checked + label::before {
+  content: '-';
+}
+
+input[type="checkbox"]:not(:checked) + label::before {
+  content: '+';
+}
+
+input[type="checkbox"]:checked + label + .content {
+  max-height: 400px; 
+}
+
+input[type="checkbox"]:not(:checked) + label + .content {
+  max-height: 0;
+}
+
+/* -------------- End of FAQ Dropdown Section  Styles -------------- */
+
+/* -------------- Call to Action Section Styles -------------- */
+
+/* -------------- End of Call to Action Section Styles -------------- */
 
 /* -------------- Footer Styles from ChatGPT -------------- */
 footer {
