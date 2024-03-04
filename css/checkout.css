@@ -11,17 +11,16 @@
 
 .checkout-cart {
     text-align: right;
-    
 }
 
 .cart-item {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 1em;
-    padding: 1em;
-    padding-top: 0;
-    padding-bottom: 0;
+    /* margin-bottom: 1em; */
+    /* padding: 1em; */
+    /* padding-top: 0; */
+    /* padding-bottom: 0; */
     /* background-color: #fff; */
     border-radius: .25em;
 }
