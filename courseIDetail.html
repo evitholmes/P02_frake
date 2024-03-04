@@ -10,7 +10,7 @@
 
     <!-- Link to your CSS stylesheet -->
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/courses.css" rel="stylesheet">
+    <link href="css/courseIDetail.css" rel="stylesheet">
 
     <!-- Optional: Link to external font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,56 +21,106 @@
     <header>
         <nav>
             <a href="index.html"><img src="brand-photos/logoFrW.png" alt="frake Logo" class="logo"></a>
-            <a href="index.html#courses" rel="navigation">Courses</a></li>
-            <!--<a href="#" rel="navigation">About</a></li>-->
-            <a href="checkout.html" rel="navigation">Checkout</a></li>
-            <a href="payment.html" rel="navigation">Payment Form</a></li>
-            <a href="#" rel="navigation">Log In</a></li>
+            <a href="index.html#courses" rel="navigation">Courses</a>
+            <!-- <a href="#" rel="navigation">About</a> -->
+            <!-- <a href="checkout.html" rel="navigation">Checkout</a>
+            <a href="payment.html" rel="navigation">Payment Form</a> -->
+            <a href="#" rel="navigation">Log In</a>
         </nav>
 
     </header>
 
+    <section id="body">
+        <!-- Course Description Section -->
+        <h1>Course Title</h1>
+        <section class="course-description">
+            <p>This is a brief description of the course. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec velit
+                neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
+            <h2>Heading 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque habitant morbi
+                tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <h3>Heading 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque habitant morbi
+                tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510_640.jpg" alt="a flower">
+            <h3>Heading 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque habitant morbi
+                tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <h2>Heading 2</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque habitant morbi
+                tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        </section>
+        <!-- End of Course Description Section -->
 
-<!-- Course Description Section -->
-<section class="course-description">
-    <h1>Course Title</h1>
-    <p>This is a brief description of the course. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-        facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec velit
-        neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Pellentesque habitant morbi
-        tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-</section>
-<!-- End of Course Description Section -->
+        <!-- FAQ Dropdown section -->
+        <div class="dropdownContainer">
+            <h1 id="faq">FAQ</h1>
+            <div class="FAQ">
+                <ul class="accordion">
+                    <li>
+                        <input type="checkbox" id="first">
+                        <label for="first">Products</label>
+                        <div class="content">
+                            <p>asdfasdfasdfasdf</p>
+                        </div>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="second">
+                        <label for="second">Services</label>
+                        <div class="content">
+                            <p>asdfasdfasdfasdf</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- end of FAQ Dropdown section -->
 
+    <!-- Call to Action section -->
+    <section id="CTAsection">
+        <div class="CTAcontainer">
+            <div class="CTAcontent">
+                <div class="CTAtext">
+                    <h2 id="cta">HỌC PHÍ: $199</h2>
+                    <h4 id="cta">Ban co the thanh toán qua Credit Card hoặc Paypal</h4>
+                </div>
+                <a class="button" href="checkout.html">Register Now!</a>
+            </div>
+        </div>
+    </section>
+    <!-- End of Call to Action section -->
 
+    </section>
 
-    <!-- footer edited from ChatGPT -->
-<footer>
+    <!-- Footer section -->
     <div class="footer-container">
         <div class="footer-section">
             <h1>Quick Links</h1>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <!-- <ul><a href="">Courses</a> -->
-                    <li><a href="#">Course I</a></li>
-                    <li><a href="#">Courses II</a></li>
-                    <li><a href="#">Courses III</a></li>
-                    <li><a href="#">Courses IV</a></li>
+                <li><a href="courseIDetail.html">Course I</a></li>
+                <li><a href="courseIDetail.html">Courses II</a></li>
+                <li><a href="#">Courses III</a></li>
+                <li><a href="#">Courses IV</a></li>
                 <!-- </ul> -->
                 <li><img src="brand-photos/discord.png" alt="Discord Logo" class="discord-logo"> frake • english</li>
             </ul>
         </div>
         <div class="footer-section">
             <h1>Contact</h1>
-            <a href="frake00@gmail.com">frake00@gmail.com</a>
+            <a href="frake00@gmail.com">defrake00@gmail.com</a>
         </div>
     </div>
     <div class="footer-bottom">
         <p>&copy; 2024 frake.io</p>
         <p>All rights reserved.</p>
     </div>
-</footer>
+
+    <!-- End of Footer section -->
 
 </body>
 

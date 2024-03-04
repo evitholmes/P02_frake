@@ -6,32 +6,34 @@ body {
   background-color: #3A393D;
   color: white;
   margin-left: 1em;
-  margin-right: 1em; 
+  margin-right: 1em;
 }
 
-img {
+#body img {
   vertical-align: middle;
+  border-radius: .5em;
 }
 
 header {
   padding: 0;
-  margin-top: -1%;
+  /* margin-top: -1%; */
 }
 
 h1 {
-  font-weight: 800;
+  /* font-weight: 800; */
   font-size: 300%;
 }
 
 h2 {
-  font-weight: 500;
-  font-size: 280%;
+  /* font-weight: 500; */
+  font-size: 250%;
+
 }
 
 h3 {
-  font-weight: 800;
-  font-size: 280%;
-  color: #AECAF8;
+  /* font-weight: 800; */
+  font-size: 200%;
+  /* color: #AECAF8; */
 }
 
 .horizontal-space {
@@ -43,7 +45,7 @@ h3 {
   padding-bottom: 2em;
   border-top-width: 0.15em;
   border-top-style: solid;
-  border-top-color: black;
+  border-top-color: rgb(0, 0, 0);
 }
 
 /* -------------- Buttons (edited from chatGPT) -------------- */
@@ -66,7 +68,8 @@ button:focus,
 
 button:active,
 .button:active {
-  background-color: aqua;
+  background-color: #ffb433;
+  /* color: #000000; */
 }
 
 button:hover,
@@ -82,13 +85,13 @@ button:hover,
 a {
   color: #668fff;
   text-decoration: none;
-  transition: color .5s ease;
+  transition: color .15s ease;
   font-weight: 700;
 }
 
 a:hover,
 a:focus {
-  color: #9d6cf7;
+  color: #ffb433;
 }
 
 .container {
@@ -156,7 +159,7 @@ code {
 
 
 
-/* -------------- Homepage-body Section Styles -------------- */
+/* -------------- homepage-text Section Styles -------------- */
 
 .homepage-text {
   text-align: left;
@@ -164,8 +167,25 @@ code {
   margin: 10em auto 0 auto;
 }
 
-.homepage-body h1 {
+.homepage-text h1 {
   margin-bottom: 0.5%;
+}
+
+.homepage-text h1 {
+  font-weight: 800;
+  font-size: 300%;
+}
+
+.homepage-text h2 {
+  font-weight: 500;
+  font-size: 280%;
+
+}
+
+.homepage-text h3 {
+  font-weight: 800;
+  font-size: 280%;
+  color: #AECAF8;
 }
 
 .h3-container {
@@ -184,14 +204,14 @@ code {
   z-index: -1;
 }
 
-/* -------------- Homepage-body Screen Size Breakpoints -------------- */
+/* -------------- homepage-text Screen Size Breakpoints -------------- */
 
 @media screen and (max-width: 550px) {
-  .homepage-body h1 {
+  .homepage-text h1 {
     margin-bottom: -14%;
   }
 
-  .homepage-body h2 {
+  .homepage-text h2 {
     margin-bottom: -18%;
   }
 
@@ -210,17 +230,14 @@ code {
     right: 12em;
   }
 
-  footer {
-    top: 300%;
-  }
 }
 
 @media screen and (min-width: 551px) {
-  .homepage-body h1 {
+  .homepage-text h1 {
     margin-bottom: -10%;
   }
 
-  .homepage-body h2 {
+  .homepage-text h2 {
     margin-bottom: -12%;
   }
 
@@ -236,16 +253,22 @@ code {
   }
 
   footer {
-    top: 300%;
+    top: 200%;
   }
 }
 
 @media screen and (min-width: 900px) {
-  .homepage-body h1 {
+  #body {
+    padding-left: 25em;
+    padding-right: 25em;
+  }
+
+
+  .homepage-text h1 {
     margin-bottom: 0%;
   }
 
-  .homepage-body h2 {
+  .homepage-text h2 {
     margin-bottom: 0%;
   }
 
@@ -287,6 +310,12 @@ code {
 }
 
 @media screen and (min-width: 1900px) {
+  #body {
+    padding-left: 25em;
+    padding-right: 25em;
+  }
+
+
   .yellow-stroke {
     max-width: 25em;
     margin-top: -5em;
@@ -304,7 +333,7 @@ code {
 }
 
 
-/* -------------- End of Homepage-body Section  Styles -------------- */
+/* -------------- End of homepage-text Section  Styles -------------- */
 
 
 
@@ -322,8 +351,6 @@ code {
   margin: 0 0.2% 0.1% 0.3%;
 }
 
-
-
 /* -------------- End of Credit Section  Styles -------------- */
 
 
@@ -332,26 +359,26 @@ code {
 .courses-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; 
+  align-items: flex-start;
 }
 
 #courses {
-  margin-bottom: -1rem; 
+  margin-bottom: -1rem;
 }
 
 .serviceContainer {
   margin-top: 2em;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-evenly; */
   align-items: center;
   flex-wrap: wrap;
-  width:100%;
+  /* width:100%; */
 }
 
 .service-listing {
   width: 20em;
-  margin: 2em;
-  margin-left: 0;
+  margin: 2em 2em;
+  /* margin-left: 0; */
   margin-top: 0;
   margin-right: 0;
   box-shadow: 0 0 1em #00000033;
@@ -381,132 +408,16 @@ code {
 }
 
 .cost {
+  font-size: larger;
   font-weight: bold;
   color: #668fff;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* -------------- End of Course Section  Styles -------------- */
 
-/* -------------- FAQ Dropdown Section Styles -------------- */
-.dropdownContainer {
-  margin-top: 20px;
-  width: 100%;
-}
 
-#faq {
-  margin-bottom: 1rem; 
-}
-
-.accordion {
-  margin: 0px;
-  padding: 0;
-
-}
-
-.accordion li {
-  list-style: none;
-  width: 100%;
-  margin: 0px;
-  margin-bottom: 20px;
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 6px;
-  background-color: #040404;
-}
-
-.accordion li label {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  font-size: 18px;
-  font-weight: 500;
-  cursor: pointer;
-  width: 100%;
-}
-
-label::before {
-  content: '+';
-  margin-right: 10px;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-input[type="checkbox"] {
-  display: none;
-}
-
-.accordion .content {
-  color: #858585;
-  padding: 0 10px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s;
-}
-
-input[type="checkbox"]:checked + label::before {
-  content: '-';
-}
-
-input[type="checkbox"]:not(:checked) + label::before {
-  content: '+';
-}
-
-input[type="checkbox"]:checked + label + .content {
-  max-height: 400px; 
-}
-
-input[type="checkbox"]:not(:checked) + label + .content {
-  max-height: 0;
-}
-
-/* -------------- End of FAQ Dropdown Section  Styles -------------- */
-
-/* -------------- Call to Action Section Styles -------------- */
-#CTAsection {
-  padding: 50px 0;
-}
-
-.CTAcontainer {
-  padding: 2em 0;
-  background-color: #ffaa00;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  right: 0;
-  box-sizing: border-box;
-}
-
-.CTAcontent {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.CTAtext {
-  padding-left: 2em;
-}
-
-.CTAcontainer h2 {
-  font-size: 23px;
-  font-weight: 600;
-  margin-bottom: 0.5%;
-}
-
-.CTAcontainer h4 {
-  font-size: 16px;
-  font-weight: 500;
-  margin-top: 0.5%;
-}
-
-button[type="button"] {
-  margin-right: 2em;
-  background-color: #040404;
-}
-
-
-/* -------------- End of Call to Action Section Styles -------------- */
 
 /* -------------- Footer Styles from ChatGPT -------------- */
 
@@ -516,12 +427,20 @@ button[type="button"] {
   justify-content: space-around;
   /* align-items: center; */
   /* flex-wrap: wrap; */
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-top: 200px;
+  /* max-width: 1200px; */
+  /* margin: 0 auto; */
+  margin-top: 150px;
 }
 
 .footer-section {
+  width: 154px;
+
+  /* flex: ; */
+  /* justify-content: center; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-around; */
+  /* flex-wrap: wrap; */
   /* flex: 1 1 30%;
   margin-bottom: 20px; */
   /* padding: 0 20px; */
