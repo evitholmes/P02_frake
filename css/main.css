@@ -233,6 +233,11 @@ code {
 }
 
 @media screen and (min-width: 551px) {
+  #body {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
   .homepage-text h1 {
     margin-bottom: -10%;
   }
@@ -259,8 +264,8 @@ code {
 
 @media screen and (min-width: 900px) {
   #body {
-    padding-left: 25em;
-    padding-right: 25em;
+    padding-left: 10em;
+    padding-right: 10em;
   }
 
 
@@ -366,17 +371,21 @@ code {
   margin-bottom: -1rem;
 }
 
+.courseBanner {
+  width: 200px;
+}
+
 .serviceContainer {
   margin-top: 2em;
   display: flex;
-  /* justify-content: space-evenly; */
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   /* width:100%; */
 }
 
 .service-listing {
-  width: 20em;
+  width: 30em;
   margin: 2em 2em;
   /* margin-left: 0; */
   margin-top: 0;
@@ -390,10 +399,11 @@ code {
   padding: 1em;
   border-radius: 0.25em;
   background-color: #e0e6ff;
+  /* width: 400px; */
 }
 
 .service img {
-  max-width: 100%;
+  max-width: 400px;
   border-radius: 0.25em;
 }
 
