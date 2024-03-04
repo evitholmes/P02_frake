@@ -1,0 +1,176 @@
+
+
+#courses {
+    position: absolute;
+    top: 100%;
+    /* left: 3em; */
+}
+
+/* edited from chatGPT */
+.serviceContainer {
+    position: absolute;
+    top: 110%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1.25em 0;
+}
+
+.service-listing {
+    width: 20em;
+    margin: 1em;
+    margin-left: 0;
+    margin-top: 0;
+    box-shadow: 0 0 1em #00000033;
+}
+
+.service {
+    text-align: center;
+    padding: 1em;
+    /* border: 1px solid #9d6cf7; */
+    border-radius: 0.25em;
+    background-color: #e0e6ff;
+}
+
+.service img {
+    max-width: 100%;
+    border-radius: 0.25em;
+}
+
+.service-name a {
+    text-decoration: none;
+    /* color: #333; */
+}
+
+.service-detail {
+    margin-top: 0.625em;
+    color: #666;
+}
+
+.cost {
+    font-weight: bold;
+    color: #668fff;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+/* end of chatGPT edits */
+
+/* -------------- FAQ Dropdown Section Styles -------------- */
+.dropdownContainer {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  #faq {
+    margin-bottom: 1rem; 
+  }
+  
+  .accordion {
+    margin: 0px;
+    padding: 0;
+  
+  }
+  
+  .accordion li {
+    list-style: none;
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 6px;
+    background-color: #040404;
+  }
+  
+  .accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  label::before {
+    content: '+';
+    margin-right: 10px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  .accordion .content {
+    color: #858585;
+    padding: 0 10px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s;
+  }
+  
+  input[type="checkbox"]:checked + label::before {
+    content: '-';
+  }
+  
+  input[type="checkbox"]:not(:checked) + label::before {
+    content: '+';
+  }
+  
+  input[type="checkbox"]:checked + label + .content {
+    max-height: 400px; 
+  }
+  
+  input[type="checkbox"]:not(:checked) + label + .content {
+    max-height: 0;
+  }
+  
+  /* -------------- End of FAQ Dropdown Section  Styles -------------- */
+  
+  /* -------------- Call to Action Section Styles -------------- */
+  #CTAsection {
+    padding: 50px 0;
+  }
+  
+  .CTAcontainer {
+    padding: 2em 0;
+    background-color: #ffaa00;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+  }
+  
+  .CTAcontent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .CTAtext {
+    padding-left: 2em;
+  }
+  
+  .CTAcontainer h2 {
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 0.5%;
+  }
+  
+  .CTAcontainer h4 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0.5%;
+  }
+  
+  button[type="button"] {
+    margin-right: 2em;
+    background-color: #040404;
+  }
+  
+  
+  /* -------------- End of Call to Action Section Styles -------------- */
