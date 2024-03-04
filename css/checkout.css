@@ -4,7 +4,7 @@
     margin: auto;
     padding: 1.5em;
     padding-top: 0.15em;
-    background-color: #e0e6ff;
+    /* background-color: #e0e6ff; */
     border-radius: .25em;
     box-shadow: 0 0 1em #00000033;
 }
@@ -22,7 +22,7 @@
     padding: 1em;
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: .25em;
 }
 
