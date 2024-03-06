@@ -6,6 +6,10 @@
     /* left: 3em; */
 }
 
+.courseBanner {
+  width: 400px;
+}
+
 /* edited from chatGPT */
 .serviceContainer {
     position: absolute;

@@ -21,19 +21,26 @@ header {
 
 h1 {
   /* font-weight: 800; */
+  margin-bottom: 0;
   font-size: 300%;
 }
 
 h2 {
   /* font-weight: 500; */
-  font-size: 250%;
+  margin-bottom: 0;
+  font-size: 200%;
 
 }
 
 h3 {
   /* font-weight: 800; */
   font-size: 200%;
+  margin-bottom: 0;
   /* color: #AECAF8; */
+}
+
+p {
+  margin-bottom: 0;
 }
 
 .horizontal-space {
@@ -194,8 +201,8 @@ code {
 }
 
 .yellow-stroke {
-  width: auto;
-  max-width: 100%;
+  /* width: auto; */
+  /* max-width: 100%; */
 }
 
 .light {
@@ -247,8 +254,9 @@ code {
   }
 
   .yellow-stroke {
+    width: 400px;
     max-width: 27em;
-    margin-top: -5em;
+    /* margin-top: -5em; */
   }
 
   .light {
@@ -300,7 +308,7 @@ code {
 
   .yellow-stroke {
     max-width: 25em;
-    margin-top: -5em;
+    /* margin-top: -5em; */
   }
 
   .light {
@@ -323,7 +331,7 @@ code {
 
   .yellow-stroke {
     max-width: 25em;
-    margin-top: -5em;
+    /* margin-top: -5em; */
   }
 
   .light {
@@ -371,8 +379,8 @@ code {
   margin-bottom: -1rem;
 }
 
-.courseBanner {
-  width: 200px;
+.courseThumbnail {
+  width: 400px;
 }
 
 .serviceContainer {
@@ -405,6 +413,11 @@ code {
 .service img {
   max-width: 400px;
   border-radius: 0.25em;
+}
+
+.service .yellow-stroke {
+  /* padding-top: 1.5em; */
+  width: 300px;
 }
 
 .service-name a {
