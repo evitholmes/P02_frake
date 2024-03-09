@@ -442,6 +442,47 @@ code {
 
 /* -------------- End of Course Section  Styles -------------- */
 
+/* -------------- Quote Section -------------- */
+.quote-container{
+  margin-top: 5%; 
+    margin-bottom: 10%;
+}
+.quote-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  position: relative;
+}
+
+.quote-image {
+  width: auto;
+  height: 50px; /* Adjust the height as needed */
+  margin-right: 20px; /* Adjust the spacing between the image and the line */
+  border-radius: 0px !important;
+}
+
+.quote-container #quotes {
+  font-size: 2.5vw; /* Adjust the font size as needed */
+}
+
+.flex-line {
+  flex-grow: 1;
+  height: 8px;
+  background-color: #ccc;
+}
+.quote-line {
+  border-top: 8px solid #ccc;
+  margin-top: 3%;
+}
+
+
+
+/* -------------- End of Quote Section Styles -------------- */
 
 
 /* -------------- Footer Styles from ChatGPT -------------- */
@@ -524,9 +565,7 @@ footer {
 
 .footer-line {
   border-top: 1px solid #ccc;
-  /* Define the line style */
   margin-top: 20px;
-  /* Adjust spacing */
 }
 
 /* -------------- End of Footer Styles -------------- */
