@@ -7,7 +7,6 @@ body {
   color: white;
   margin-left: 1em;
   margin-right: 1em;
-  
 }
 
 #body img {
@@ -136,8 +135,10 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
-  margin: 0 auto;
+  width: calc(100vw - 18em); /* Adjusted width */
+  margin-left: 8em;
+  margin-right: 8em;
+  margin-top: 2em;
 }
 
 nav a {
