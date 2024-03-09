@@ -7,6 +7,7 @@ body {
   color: white;
   margin-left: 1em;
   margin-right: 1em;
+  
 }
 
 #body img {
@@ -443,30 +444,45 @@ code {
 
 
 /* -------------- Footer Styles from ChatGPT -------------- */
+:root {
+  --footer-body-margin: 0;
+  --footer-body-padding: 0;
+}
 
+body, html {
+  margin: var(--footer-body-margin);
+  padding: var(--footer-body-padding);
+}
+
+.footer-container {
+  --footer-body-margin: 0;
+  --footer-body-padding: 0;
+  
+}
+
+footer {
+  background-color: #13131333; 
+  overflow: hidden; 
+  margin-top:2%;
+}
 
 .footer-container {
   display: flex;
-  justify-content: space-around;
-  /* align-items: center; */
-  /* flex-wrap: wrap; */
-  /* max-width: 1200px; */
-  /* margin: 0 auto; */
-  margin-top: 150px;
+  justify-content: space-between;
+  margin-top: 3%;
+  padding: 0 150px; 
+
+}
+.discord-logo {
+  margin-right: 10px; /* Adjust the margin between image and text */
 }
 
 .footer-section {
-  width: 154px;
+  width: 10vw;
+}
 
-  /* flex: ; */
-  /* justify-content: center; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: space-around; */
-  /* flex-wrap: wrap; */
-  /* flex: 1 1 30%;
-  margin-bottom: 20px; */
-  /* padding: 0 20px; */
+.footer-section:nth-child(2) {
+  margin-left: 35vw;
 }
 
 .footer-section h1 {
@@ -484,6 +500,10 @@ code {
   margin-bottom: 5px;
 }
 
+.footer-section ul li:hover {
+  opacity: 50%;
+}
+
 .footer-section a {
   font-weight: unset;
   color: #fff;
@@ -492,12 +512,20 @@ code {
 
 .footer-bottom {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .footer-bottom p {
   margin: 0;
   font-size: 14px;
+}
+
+.footer-line {
+  border-top: 1px solid #ccc;
+  /* Define the line style */
+  margin-top: 20px;
+  /* Adjust spacing */
 }
 
 /* -------------- End of Footer Styles -------------- */
