@@ -443,6 +443,10 @@ code {
 /* -------------- End of Course Section  Styles -------------- */
 
 /* -------------- Quote Section -------------- */
+.quote-container{
+  margin-top: 5%; 
+    margin-bottom: 10%;
+}
 .quote-wrapper {
   display: flex;
   align-items: center;
