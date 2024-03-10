@@ -7,7 +7,8 @@
 }
 
 .courseBanner {
-  width: 400px;
+  margin-top: 1em;
+  width: 700px;
 }
 
 /* edited from chatGPT */
@@ -59,6 +60,50 @@
     margin-bottom: 0.5em;
 }
 /* end of chatGPT edits */
+
+/* -------------- Quote Section -------------- */
+.quote-container{
+  margin-top: 5%; 
+  margin-bottom: 5%;
+}
+
+.quote-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  position: relative;
+}
+
+.quote-image {
+  width: auto;
+  height: 30px; /* Adjust the height as needed */
+  margin-right: 10px; /* Adjust the spacing between the image and the line */
+  border-radius: 0px !important;
+}
+
+.quote-container #quotes {
+  margin-top: 5px;
+  font-size: 1.5em;
+}
+
+.flex-line {
+  flex-grow: 1;
+  height: 4px;
+  background-color: #ccc;
+}
+.quote-line {
+  border-top: 4px solid #ccc;
+  margin-top: 3%;
+}
+
+/* -------------- End of Quote Section Styles -------------- */
+
+
 
 /* -------------- FAQ Dropdown Section Styles -------------- */
 .dropdownContainer {
