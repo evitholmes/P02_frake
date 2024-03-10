@@ -81,7 +81,7 @@
 
 .quote-image {
   width: auto;
-  height: 30px; /* Adjust the height as needed */
+  height: 1em; /* Adjust the height as needed */
   margin-right: 10px; /* Adjust the spacing between the image and the line */
   border-radius: 0px !important;
 }
@@ -93,15 +93,50 @@
 
 .flex-line {
   flex-grow: 1;
-  height: 4px;
+  height: 3px;
   background-color: #ccc;
 }
 .quote-line {
-  border-top: 4px solid #ccc;
+  border-top: 3px solid #ccc;
   margin-top: 3%;
 }
 
 /* -------------- End of Quote Section Styles -------------- */
+
+/* -------------- two-column section I -------------- */
+
+.two-column-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+}
+
+.courseBanner {
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .two-column-section {
+      flex-direction: column;
+  }
+
+  .column {
+      width: 100%;
+  }
+}
+
+/* -------------- end of two-column section I -------------- */
+
+
+
+
+
+
 
 
 
@@ -185,7 +220,7 @@
   }
   
   .CTAcontainer {
-    padding: 1.5em 0;
+    padding: 1em 0;
     background-color: #668fff;
     position: absolute;
     width: 100%;
@@ -201,7 +236,7 @@
   }
   
   .CTAtext {
-    padding-left: 2em;
+    padding-left: 1em;
   }
   
   .CTAcontainer h2 {
@@ -217,8 +252,8 @@
   }
   
   button[type="button"] {
-    margin-right: 2em;
-    background-color: #040404;
+    /* margin-right: 2em; */
+    /* background-color: #040404; */
   }
   
   
