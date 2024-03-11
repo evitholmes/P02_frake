@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <html lang="en">
 
-    <title>Homepage</title>
+    <title>Beyond IELTS: Speaking</title>
 
     <!-- Link to your CSS stylesheet -->
     <link href="css/main.css" rel="stylesheet">
@@ -15,6 +15,8 @@
     <!-- Optional: Link to external font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
@@ -25,9 +27,11 @@
             <!-- <a href="#" rel="navigation">About</a> -->
             <!-- <a href="checkout.html" rel="navigation">Checkout</a>
             <a href="payment.html" rel="navigation">Payment Form</a> -->
-            <a href="#" rel="navigation">Log In</a>
+            <!-- <a href="#" rel="navigation">Log In</a> -->
+            <a href="checkout.html"><span class="material-symbols-rounded">
+                    shopping_cart
+                </span></a>
         </nav>
-
     </header>
 
     <section id="body">
@@ -103,13 +107,15 @@
             <section class="two-column-section">
                 <div class="column">
                     <h2>Guarantee</h2>
-                    <p>We offer a satisfaction guarantee. If you follow our program diligently and do not see improvement in your speaking skills, we will refund your investment, no questions asked.</p>
+                    <p>We offer a satisfaction guarantee. If you follow our program diligently and do not see
+                        improvement in your speaking skills, we will refund your investment, no questions asked.</p>
                 </div>
                 <div class="column">
-                    <img class="courseBanner" src="courseimg/courseDetailImg/openBookRocketTelescopeEarth.png" alt="a 3D brain on yellow background with neon-lit numbers flying around" width="100%">
+                    <img class="courseBanner" src="courseimg/courseDetailImg/openBookRocketTelescopeEarth.png"
+                        alt="a 3D brain on yellow background with neon-lit numbers flying around" width="100%">
                 </div>
             </section>
-            
+
 
             <!-- End of Two-Column Section II -->
 
@@ -120,11 +126,23 @@
                 first step towards a brighter future!</p>
 
         </section>
-
-
-
-
         <!-- End of Course Description Section -->
+
+
+
+        <!-- Call to Action section -->
+        <section id="CTAsection">
+            <div class="CTAcontainer">
+                <div class="CTAcontent">
+                    <div class="CTAtext">
+                        <h2 id="cta">Cost: $199</h2>
+                        <h4 id="cta">Enroll now and unlock your potential!</h4>
+                    </div>
+                    <a class="button" href="checkout.html">Enroll</a>
+                </div>
+            </div>
+        </section>
+        <!-- End of Call to Action section -->
 
         <!-- FAQ Dropdown section -->
         <div class="dropdownContainer">
@@ -164,19 +182,7 @@
     </section>
     <!-- end of FAQ Dropdown section -->
 
-    <!-- Call to Action section -->
-    <section id="CTAsection">
-        <div class="CTAcontainer">
-            <div class="CTAcontent">
-                <div class="CTAtext">
-                    <h2 id="cta">Cost: $199</h2>
-                    <h4 id="cta">Enroll now and unlock your potential!</h4>
-                </div>
-                <a class="button" href="checkout.html">Enroll</a>
-            </div>
-        </div>
-    </section>
-    <!-- End of Call to Action section -->
+
 
     </section>
 
@@ -185,8 +191,8 @@
         <footer>
             <div class="footer-container">
                 <div class="footer-section">
-                    <img src="brand-photos/logoFrW.png" alt="Discord Logo" class="discord-logo">
-                    <span class="text">frake.io</span>
+                    <a href="index.html"><img src="brand-photos/logoFrW.png" alt="Discord Logo" class="discord-logo">
+                        <span class="text">frake.io</span></a>
 
                 </div>
                 <div class="footer-section">
@@ -195,7 +201,7 @@
                         <li><a href="index.html">Home</a></li>
                         <!-- <ul><a href="">Courses</a> -->
                         <li><a href="courseIDetail.html">Beyond IELTS: Speaking</a></li>
-                        <li><a href="courseIDetail.html">Beyond IELTS: Reading</a></li>
+                        <li><a href="courseIIDetail.html">Beyond IELTS: Reading</a></li>
                         <li><a href="#">Beyond IELTS: Listening</a></li>
                         <!-- <li><a href="#">Courses IV</a></li> -->
                         <!-- </ul> -->
@@ -216,7 +222,6 @@
             </div>
         </footer>
     </div>
-
     <!-- End of Footer section -->
 
 </body>
