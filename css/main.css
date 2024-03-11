@@ -132,13 +132,17 @@ a:focus {
 }
 
 nav {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: calc(100vw - 18em); /* Adjusted width */
   margin-left: 8em;
   margin-right: 8em;
-  margin-top: 2em;
+  margin-top: -16em;
+  padding-top: 8em;
+  background-color: #3A393D;
+  z-index: 1000;
 }
 
 nav a {
