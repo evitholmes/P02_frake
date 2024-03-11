@@ -162,7 +162,8 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1em 2em; /* Adjusted padding */
+  padding: 1em 2em;
+  /* Adjusted padding */
   background-color: #625096;
   z-index: 1000;
 }
@@ -187,25 +188,29 @@ nav a:last-of-type {
 
 
 header {
-  margin-top: 8%; /* Add margin to push content below the navbar */
+
+  /* Add margin to push content below the navbar */
 }
 
 /* Adjusted margin for content below the navbar */
 #body {
-  margin-top: 8%; /* Add margin to push content below the navbar */
+  /* Add margin to push content below the navbar */
 }
 
 /* Adjust the position of the shopping cart icon */
 .cart-link {
   display: flex;
   align-items: center;
-  margin-right: 5em; /* Adjust the left margin as needed */
+  margin-right: 5em;
+  /* Adjust the left margin as needed */
 }
 
 /* Adjust the color and size of the shopping cart icon */
 .cart-link .material-symbols-outlined {
-  font-size: 1.5em; /* Adjust the size as needed */
-  color: #ffffff; /* Adjust the color to match your design */
+  font-size: 1.5em;
+  /* Adjust the size as needed */
+  color: #ffffff;
+  /* Adjust the color to match your design */
 }
 
 
@@ -217,30 +222,34 @@ header {
 /* -------------- homepage-text Section Styles -------------- */
 
 .homepage-text {
-  text-align: left;
-  width: 55%;
-  margin: 10em auto 0 auto;
+  width: 80vw;
+  position: relative;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 5vw; /* Adjust as needed */
+  overflow-x: hidden;
+  margin-left: 15%; /* Adjust the left margin as needed */
 }
 
 .homepage-text h1 {
+  margin-top: 20vw; /* Adjust the top margin as needed */
   margin-bottom: 0.5%;
+  width: 100%;
+  max-width: 100%;
 }
-
-.homepage-text h1 {
-  font-weight: 800;
-  font-size: 300%;
+.homepage-text h1,
+.homepage-text h2,
+.homepage-text h3 {
+  font-size: 3vw; /* Adjust font size to be responsive to viewport width */
 }
 
 .homepage-text h2 {
   font-weight: 500;
-  font-size: 280%;
-
 }
 
 .homepage-text h3 {
   font-weight: 800;
-  font-size: 280%;
-  color: #AECAF8;
+  color: #aecaf8;
 }
 
 .h3-container {
@@ -248,20 +257,50 @@ header {
   vertical-align: middle;
 }
 
-.yellow-stroke {
-  /* width: auto; */
-  /* max-width: 100%; */
+.light {
+  max-width: 32vw; /* Ensure the image doesn't overflow */
+  margin-top: -35vw;
+  z-index: -10;
+  margin-left: -35vw;
 }
 
-.light {
-  width: auto;
-  max-width: 100%;
-  z-index: -1;
+#body {
+  padding-left: 10em;
+  padding-right: 10em;
 }
+
+.h2-h3-container {
+  display: flex;
+}
+
+.h2-h3-container h3,
+.h3-container h2 {
+  margin-top: 1px;
+  white-space: nowrap;
+}
+
+.h3-container {
+  display: inline-block;
+  vertical-align: middle;
+  width: max-content;
+}
+
+.h2-h3-container h2 {
+  margin-right: 10px;
+  margin-top: 1px;
+  white-space: nowrap;
+}
+
+.yellow-stroke {
+  max-width: 35vw; /* Ensure the image doesn't overflow */
+}
+
+
+
 
 /* -------------- homepage-text Screen Size Breakpoints -------------- */
 
-@media screen and (max-width: 550px) {
+/* @media screen and (max-width: 550px) {
   .homepage-text h1 {
     margin-bottom: -14%;
   }
@@ -304,7 +343,6 @@ header {
   .yellow-stroke {
     width: 400px;
     max-width: 27em;
-    /* margin-top: -5em; */
   }
 
   .light {
@@ -356,7 +394,6 @@ header {
 
   .yellow-stroke {
     max-width: 25em;
-    /* margin-top: -5em; */
   }
 
   .light {
@@ -379,7 +416,6 @@ header {
 
   .yellow-stroke {
     max-width: 25em;
-    /* margin-top: -5em; */
   }
 
   .light {
@@ -391,7 +427,7 @@ header {
   footer {
     top: 220%;
   }
-}
+} */
 
 
 /* -------------- End of homepage-text Section  Styles -------------- */
@@ -402,9 +438,26 @@ header {
 
 .credit {
   padding: 10px;
-  width: 90%;
+  width: 100%;
   text-align: right;
   margin: 0 auto 2em auto;
+  overflow-x: hidden; /* Add this line to hide horizontal overflow */
+}
+
+.credit p {
+  font-size: 1em;
+  /* Adjust the font size as needed */
+}
+
+@media screen and (max-width: 900px) {
+  .credit p {
+    font-size: 0.8em;
+  }
+}
+
+.credit img {
+  max-width: 5vw;
+  /* Adjust the size of the image as needed */
 }
 
 .credit a {
@@ -415,6 +468,8 @@ header {
   width: 1.5em;
   margin: 0 0.2% 0.1% 0.3%;
 }
+
+
 
 /* -------------- End of Credit Section  Styles -------------- */
 
