@@ -153,17 +153,15 @@ a:focus {
 .logo {
   max-height: 2.5em;
 }
-
 nav {
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: calc(100vw - 18em);
-  margin-left: 8em;
-  margin-right: 8em;
-  margin-top: -16em;
-  padding-top: 8em;
+  padding: 1em 2em; /* Adjusted padding */
   background-color: #625096;
   z-index: 1000;
 }
@@ -186,12 +184,14 @@ nav a:last-child {
   margin-left: auto;
 }
 
-code {
-  background-color: #EEE;
-  padding: 0.5rem;
-  display: block;
+header {
+  margin-top: 20%; /* Add margin to push content below the navbar */
 }
 
+/* Adjusted margin for content below the navbar */
+#body {
+  margin-top: 10%; /* Add margin to push content below the navbar */
+}
 /* -------------- End of Navigation Bar -------------- */
 
 
