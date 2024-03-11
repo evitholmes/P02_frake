@@ -156,14 +156,13 @@ a:focus {
 
 nav {
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: calc(100vw - 18em);
-  margin-left: 8em;
-  margin-right: 8em;
-  margin-top: -16em;
-  padding-top: 8em;
+  padding: 1em 2em; /* Adjusted padding */
   background-color: #625096;
   z-index: 1000;
 }
@@ -182,15 +181,34 @@ nav a:hover {
   opacity: 0.8;
 }
 
-nav a:last-child {
+nav a:last-of-type {
   margin-left: auto;
 }
 
-code {
-  background-color: #EEE;
-  padding: 0.5rem;
-  display: block;
+
+header {
+  margin-top: 8%; /* Add margin to push content below the navbar */
 }
+
+/* Adjusted margin for content below the navbar */
+#body {
+  margin-top: 8%; /* Add margin to push content below the navbar */
+}
+
+/* Adjust the position of the shopping cart icon */
+.cart-link {
+  display: flex;
+  align-items: center;
+  margin-right: 5em; /* Adjust the left margin as needed */
+}
+
+/* Adjust the color and size of the shopping cart icon */
+.cart-link .material-symbols-outlined {
+  font-size: 1.5em; /* Adjust the size as needed */
+  color: #ffffff; /* Adjust the color to match your design */
+}
+
+
 
 /* -------------- End of Navigation Bar -------------- */
 
