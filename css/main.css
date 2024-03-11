@@ -187,12 +187,12 @@ nav a:last-of-type {
 
 
 header {
-  margin-top: 20%; /* Add margin to push content below the navbar */
+  margin-top: 8%; /* Add margin to push content below the navbar */
 }
 
 /* Adjusted margin for content below the navbar */
 #body {
-  margin-top: 10%; /* Add margin to push content below the navbar */
+  margin-top: 8%; /* Add margin to push content below the navbar */
 }
 
 /* Adjust the position of the shopping cart icon */
