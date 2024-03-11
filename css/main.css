@@ -153,6 +153,7 @@ a:focus {
 .logo {
   max-height: 2.5em;
 }
+
 nav {
   position: fixed;
   top: 0;
@@ -180,9 +181,10 @@ nav a:hover {
   opacity: 0.8;
 }
 
-nav a:last-child {
+nav a:last-of-type {
   margin-left: auto;
 }
+
 
 header {
   margin-top: 20%; /* Add margin to push content below the navbar */
@@ -192,6 +194,22 @@ header {
 #body {
   margin-top: 10%; /* Add margin to push content below the navbar */
 }
+
+/* Adjust the position of the shopping cart icon */
+.cart-link {
+  display: flex;
+  align-items: center;
+  margin-right: 5em; /* Adjust the left margin as needed */
+}
+
+/* Adjust the color and size of the shopping cart icon */
+.cart-link .material-symbols-outlined {
+  font-size: 1.5em; /* Adjust the size as needed */
+  color: #ffffff; /* Adjust the color to match your design */
+}
+
+
+
 /* -------------- End of Navigation Bar -------------- */
 
 
