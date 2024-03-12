@@ -24,8 +24,6 @@ body {
   border-radius: .5em;
 }
 
-
-
 header {
   padding: 0;
 }
@@ -294,7 +292,7 @@ nav a:last-of-type {
 
 /* -------------- homepage-text Screen Size Breakpoints -------------- */
 
-@media screen and (max-width: 550px) {
+/* @media screen and (max-width: 550px) {
   .homepage-text h1 {
     margin-bottom: -14%;
   }
@@ -421,7 +419,7 @@ nav a:last-of-type {
   footer {
     top: 220%;
   }
-}
+} */
 
 
 /* -------------- End of homepage-text Section  Styles -------------- */
