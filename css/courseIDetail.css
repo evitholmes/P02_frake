@@ -188,6 +188,7 @@ label::before {
   font-weight: 600;
 }
 
+
 input[type="checkbox"] {
   display: none;
 }
@@ -214,6 +215,10 @@ input[type="checkbox"]:checked+label+.content {
 
 input[type="checkbox"]:not(:checked)+label+.content {
   max-height: 0;
+}
+
+input[type="checkbox"]:checked+label {
+  color: white; /* Change label text color to white */
 }
 
 /* -------------- End of FAQ Dropdown Section  Styles -------------- */
