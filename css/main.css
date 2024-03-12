@@ -190,15 +190,6 @@ nav a:last-of-type {
 }
 
 
-header {
-
-  /* Add margin to push content below the navbar */
-}
-
-/* Adjusted margin for content below the navbar */
-#body {
-  /* Add margin to push content below the navbar */
-}
 
 /* Adjust the position of the shopping cart icon */
 .cart-link {
@@ -303,7 +294,7 @@ header {
 
 /* -------------- homepage-text Screen Size Breakpoints -------------- */
 
-/* @media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
   .homepage-text h1 {
     margin-bottom: -14%;
   }
@@ -430,7 +421,7 @@ header {
   footer {
     top: 220%;
   }
-} */
+}
 
 
 /* -------------- End of homepage-text Section  Styles -------------- */
@@ -485,9 +476,6 @@ header {
   align-items: flex-start;
 }
 
-#courses {
-  /* margin-bottom: -1rem; */
-}
 
 .courseThumbnail {
   width: 40vw;
@@ -581,14 +569,11 @@ footer {
 .footer-container {
   display: flex;
   justify-content: space-between;
-  margin-top: 3%;
+  margin-top: 30px;
   padding: 0 150px;
-
 }
 
-.discord-logo {
-  /* margin-right: 10px; Adjust the margin between image and text */
-}
+
 
 .footer-section {
   width: 10vw;
@@ -628,8 +613,8 @@ footer {
 
 .footer-bottom {
   text-align: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 .footer-bottom p {
@@ -717,7 +702,7 @@ textarea {
 }
 
 .submit-btn {
-  float: right;
+  /* float: right; */
   padding: 7px 35px;
   border-radius: 60px;
   display: inline-block;
