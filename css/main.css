@@ -153,6 +153,7 @@ a:focus {
 /* -------------- Navigation Bar -------------- */
 .logo {
   max-height: 2.5em;
+  padding-top: .5em;
 }
 
 nav {
@@ -165,7 +166,7 @@ nav {
   align-items: center;
   padding: 1em 2em;
   /* Adjusted padding */
-  background-color: #625096;
+  background-color: #323235;
   z-index: 1000;
 }
 
@@ -174,6 +175,7 @@ nav a {
   text-decoration: none;
   font-weight: 600;
   padding: 0 1em;
+  /* padding-bottom: 0; */
   border-radius: 0.25em;
   transition: background-color 0.3s ease;
 }
