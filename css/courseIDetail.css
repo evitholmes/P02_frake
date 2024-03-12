@@ -241,9 +241,9 @@ input[type="checkbox"]:not(:checked)+label+.content {
   align-items: center;
 }
 
-.CTAtext {
+/* .CTAtext { */
   /* padding-left: 1em; */
-}
+/* } */
 
 .CTAcontainer h2 {
   /* font-size: 23px; */
@@ -257,10 +257,10 @@ input[type="checkbox"]:not(:checked)+label+.content {
   margin-top: 0.5%;
 }
 
-button[type="button"] {
+/* button[type="button"] { */
   /* margin-right: 2em; */
   /* background-color: #040404; */
-}
+/* } */
 
 
 /* -------------- End of Call to Action Section Styles -------------- */
